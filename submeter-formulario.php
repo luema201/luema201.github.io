@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Intenta enviar el correo
     if (mail($destinatario, $asunto, $cuerpoMensaje, $cabeceras)) {
-        echo "¡El formulario ha sido enviado con éxito!";
+        echo "¡Gracias por contestar Analia!";
     } else {
         echo "Hubo un problema al enviar el formulario. Por favor, inténtalo de nuevo.";
     }
