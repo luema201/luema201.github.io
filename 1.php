@@ -11,9 +11,9 @@ $formcontent="
     Mensaje: $mensaje
 ";
 
-$recipient = "REEMPLAZAR ESTO POR EL MAIL AL QUE QUERES QUE LLEGUE";
+$recipient = "luemadiaz1@gmail.com";
 
-$subject = "REEMPLAZAR ESTO POR ASUNTO";
+$subject = "Respuesta";
 
 $header = "From: $email \r\n";
 $header .= "Content-Type: text/plain; charset=UTF-8";
